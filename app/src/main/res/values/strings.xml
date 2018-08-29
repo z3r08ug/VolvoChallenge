@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Volvo Challenge</string>
-    <string name="weather">5 Day Weather Forecast</string>
+    <string name="weather">Today\'s Weather Forecast</string>
+    <string name="city_placeholder">City PlaceHolder</string>
+    <string name="day_1">Day 1</string>
+    <string name="day_2">Day 2</string>
+    <string name="day_3">Day 3</string>
+    <string name="day_4">Day 4</string>
+    <string name="day_5">Day 5</string>
+    <string name="day_6">Day 6</string>
+    <string name="degree_f">°F</string>
 </resources>

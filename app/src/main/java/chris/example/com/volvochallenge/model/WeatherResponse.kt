@@ -8,7 +8,7 @@ class WeatherResponse
 
     @SerializedName("consolidated_weather")
     @Expose
-    var consolidatedWeather: List<ConsolidatedWeather>? = null
+    var consolidatedWeather: ArrayList<ConsolidatedWeather>? = null
     @SerializedName("time")
     @Expose
     var time: String? = null
@@ -66,7 +66,7 @@ class WeatherResponse
      * @param sources
      * @param timezoneName
      */
-    constructor(consolidatedWeather: List<ConsolidatedWeather>, time: String, sunRise: String, sunSet: String, timezoneName: String, parent: Parent, sources: List<Source>, title: String, locationType: String, woeid: Int?, lattLong: String, timezone: String) : super()
+    constructor(consolidatedWeather: ArrayList<ConsolidatedWeather>, time: String, sunRise: String, sunSet: String, timezoneName: String, parent: Parent, sources: List<Source>, title: String, locationType: String, woeid: Int?, lattLong: String, timezone: String) : super()
     {
         this.consolidatedWeather = consolidatedWeather
         this.time = time

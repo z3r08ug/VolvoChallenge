@@ -8,7 +8,7 @@
     <TextView
         android:id="@+id/tvCity"
         android:textSize="@dimen/std_details"
-        android:layout_width="125dp"
+        android:layout_width="@dimen/city_width"
         android:layout_height="wrap_content" />
 
     <ImageView
@@ -17,43 +17,12 @@
         android:layout_height="@dimen/std_weather_icon"
         android:layout_toEndOf="@id/tvCity"/>
 
-    <ImageView
-        android:id="@+id/ivDay2"
-        android:scaleType="fitXY"
-        android:layout_width="@dimen/std_weather_icon"
-        android:layout_height="@dimen/std_weather_icon"
+    <TextView
+        android:id="@+id/tvTemp"
+        android:layout_width="@dimen/city_width"
+        android:layout_height="wrap_content"
         android:layout_toEndOf="@id/ivDay1"
-        android:layout_marginEnd="@dimen/std_margin_right"/>
-
-    <ImageView
-        android:id="@+id/ivDay3"
-        android:scaleType="fitXY"
-        android:layout_width="@dimen/std_weather_icon"
-        android:layout_height="@dimen/std_weather_icon"
-        android:layout_toEndOf="@id/ivDay2"
-        android:layout_marginEnd="@dimen/std_margin_right"/>
-
-    <ImageView
-        android:id="@+id/ivDay4"
-        android:scaleType="fitXY"
-        android:layout_width="@dimen/std_weather_icon"
-        android:layout_height="@dimen/std_weather_icon"
-        android:layout_toEndOf="@id/ivDay3"
-        android:layout_marginEnd="@dimen/std_margin_right"/>
-
-    <ImageView
-        android:id="@+id/ivDay5"
-        android:scaleType="fitXY"
-        android:layout_width="@dimen/std_weather_icon"
-        android:layout_height="@dimen/std_weather_icon"
-        android:layout_toEndOf="@id/ivDay4"
-        android:layout_marginEnd="@dimen/std_margin_right"/>
-    <ImageView
-        android:id="@+id/ivDay6"
-        android:scaleType="fitXY"
-        android:layout_width="@dimen/std_weather_icon"
-        android:layout_height="@dimen/std_weather_icon"
-        android:layout_toEndOf="@id/ivDay5"
-        android:layout_marginEnd="@dimen/std_margin_right"/>
+        android:textSize="@dimen/std_details"
+        android:padding="@dimen/std_margin" />
 
 </RelativeLayout>
