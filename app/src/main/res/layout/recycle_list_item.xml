@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/std_margin">
+
+    <TextView
+        android:id="@+id/tvCity"
+        android:textSize="@dimen/std_details"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/ivDay1"
+        android:layout_width="@dimen/std_weather_icon"
+        android:layout_height="@dimen/std_weather_icon"
+        android:layout_toEndOf="@id/tvCity"/>
+
+    <ImageView
+        android:id="@+id/ivDay2"
+        android:scaleType="fitXY"
+        android:layout_width="@dimen/std_weather_icon"
+        android:layout_height="@dimen/std_weather_icon"
+        android:layout_toEndOf="@id/ivDay1"
+        android:layout_marginEnd="@dimen/std_margin_right"/>
+
+    <ImageView
+        android:id="@+id/ivDay3"
+        android:scaleType="fitXY"
+        android:layout_width="@dimen/std_weather_icon"
+        android:layout_height="@dimen/std_weather_icon"
+        android:layout_toEndOf="@id/ivDay2"
+        android:layout_marginEnd="@dimen/std_margin_right"/>
+
+    <ImageView
+        android:id="@+id/ivDay4"
+        android:scaleType="fitXY"
+        android:layout_width="@dimen/std_weather_icon"
+        android:layout_height="@dimen/std_weather_icon"
+        android:layout_toEndOf="@id/ivDay3"
+        android:layout_marginEnd="@dimen/std_margin_right"/>
+
+    <ImageView
+        android:id="@+id/ivDay5"
+        android:scaleType="fitXY"
+        android:layout_width="@dimen/std_weather_icon"
+        android:layout_height="@dimen/std_weather_icon"
+        android:layout_toEndOf="@id/ivDay4"
+        android:layout_marginEnd="@dimen/std_margin_right"/>
+    <ImageView
+        android:id="@+id/ivDay6"
+        android:scaleType="fitXY"
+        android:layout_width="@dimen/std_weather_icon"
+        android:layout_height="@dimen/std_weather_icon"
+        android:layout_toEndOf="@id/ivDay5"
+        android:layout_marginEnd="@dimen/std_margin_right"/>
+
+</RelativeLayout>

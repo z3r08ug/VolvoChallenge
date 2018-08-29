@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="std_elevation">5</dimen>
+    <dimen name="std_margin">10dp</dimen>
+    <dimen name="std_header">25sp</dimen>
+    <dimen name="std_details">20sp</dimen>
+    <dimen name="std_weather_icon">40dp</dimen>
+</resources>
